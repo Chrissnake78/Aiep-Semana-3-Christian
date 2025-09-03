@@ -94,6 +94,12 @@
       div.innerHTML = resultado;
       div.style.display = "block";
     });
+
+    // Hacer que el botón "Iniciar sesión con Gmail" abra el login real
+document.querySelector('.gmail-btn').addEventListener('click', function () {
+  window.open('https://mail.google.com/', '_blank', 'noopener,noreferrer');
+});
+
   </script>
 </body>
 </html>
